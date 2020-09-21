@@ -1,0 +1,26 @@
+{
+  "name": "fast-deploy-cli",
+  "version": "1.0.0",
+  "description": "a cli tool for web deploy",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "node src/main.js"
+  },
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/lzcdev/fast-deploy-cli"
+   },
+  "keywords": [
+    "node",
+    "front-end",
+    "fast-deploy-cli",
+    "web"
+  ],
+  "author": "Evan",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "inquirer": "^7.3.3",
+    "node-ssh": "^11.1.0"
+  }
+}
